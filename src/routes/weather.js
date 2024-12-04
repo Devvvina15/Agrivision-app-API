@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const axios = require('axios');
 
-const OPENWEATHER_API_KEY = 'd023460d76f9bcab8f639bd6757d650b';
+const OPENWEATHER_API_KEY = '<YOUR API KEY HERE>';
 
 router.get('/forecast', async (req, res) => {
     const { lat, lon } = req.query;
