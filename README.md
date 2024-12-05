@@ -1,5 +1,6 @@
 # WeatherAPI-with-Openweathermap
-Weather API for weather forecasting on the Bangkit capstone project
+Agrivision mobile app API for Bangkit capstone project
 
 npm install
+
 node src/index.js
